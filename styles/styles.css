@@ -2,10 +2,10 @@ main{
     max-width: 840px;
 }
 aside {
-    width: 20rem
+    width : 20rem;
     margin:1rem;
     border: 1px solid rgba(0,0,0,0.2);/* 1 */
-    padding::1rem;
+    padding:1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
@@ -17,7 +17,7 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-    ...
+    
 }
 p { padding: 0;}
 footer {
