@@ -1,12 +1,17 @@
-@import url('https//fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+    font-family:var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
 :root {
     --primary-color:  #15a7b7;
     --secondary-color:  #323030;
     --accent1-color: #3b0d86;
     --accent2-color: #BFACAA;
 
-    --heading-font:'rowdies',serif;
+    --heading-font:'Open sans',sans-serif;
     --paragraph-font:'Helvetica',serif;
 
     --nav-background-color: #323030;
@@ -15,14 +20,14 @@
     --nav-hover-background-color: #15a7b7;
 }
 body {
-    font-family: var(--paragraph-font);
+    font-family:var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
 
 h1,h2,h3,h4,h5,h6{
-        font-family: var(--heading-font);
-        color: var(--primary-color);
+        font-family:var(--heading-font);
+        color:var(--primary-color);
 
     }
 header {
