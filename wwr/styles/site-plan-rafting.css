@@ -1,4 +1,4 @@
-@import url('https//fonts.google.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+@import url('https//fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
 
 :root {
     --primary-color:  #15a7b7;
@@ -40,7 +40,7 @@ nav {
 nav a {
     display: block;
     color: var(--nav-link-color);
-    text-decoration: nome;
+    text-decoration:none;
     padding: 1rem;
 }
 nav a:link,nav a:visited{
