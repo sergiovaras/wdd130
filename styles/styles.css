@@ -1,4 +1,8 @@
-/* commet */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
 nav {background-color: steelblue;
     padding: 10px;
 }
@@ -28,7 +32,7 @@ aside {
     margin:1rem;
     border: 1px solid rgba(0,0,0,0.2);/* 1 */
     padding:1rem;
-    background-color: #eee;
+    background-color: #c9bcf7;
     color: #333;
     text-align: center;
 }
@@ -40,9 +44,30 @@ main img {
     width: 150px;
     height: auto;
 }
+main img {
+    /* floating image to the right is used */
+    float: right;
+}
 p { padding: 0;}
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+/* Class Selectors */
+.box{
+    margin: 1rem;
+    border: 1px solidr rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #c9bcf7;
+    background-color: #000;
+}
+aside {
+    width: 20em;
+    text-align: center;
+}
+aside h2 {
+    position: absolute;
+    top: auto;
+    left: 120px;
 }
