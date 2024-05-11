@@ -17,7 +17,7 @@ h1{
 img{
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid #a1afb7;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -57,10 +57,10 @@ footer {
 /* Class Selectors */
 .box{
     margin: 1rem;
-    border: 1px solidr rgba(0,0,0,.1);
+    border: solid #5B6DCD 10px; 
     padding: 1rem;
     background-color: #c9bcf7;
-    background-color: #000;
+    color: #a1afb7;
 }
 aside {
     width: 20em;
