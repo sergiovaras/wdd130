@@ -101,3 +101,7 @@ aside{
     grid-column: 1/2;
     grid-row: 1/4;
 }
+header, footer, .grid {
+    margin: 0 auto;
+    max-width: 840px;
+}
