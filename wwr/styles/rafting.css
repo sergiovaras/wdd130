@@ -99,7 +99,7 @@ article img{
     width: 100%;
 
 }
-section1 {
+#section1 {
     display:grid;
     background-color:  hsl(219, 42%, 76%);
     height: 300px;
@@ -107,15 +107,15 @@ section1 {
     border: 2px solid #333;
     margin: 30px;
 }
-section1 p{
+#section1 p{
     color: #050605;
     
 }
-section1 h2{
+#section1 h2{
     text-align: center;
     font-size: 40px;
 }
-section2{
+#section2{
     display: grid;
     background-color: hsl(219, 42%, 76%);
     place-items: center;
@@ -128,13 +128,13 @@ section2{
     border: 2px solid #333;
    
 }
-section2 img{
+#section2 img{
     max-width: 150px;
     grid-row: 2;
     border: 2px solid #050605;
 
 }
-section2 h2{
+#section2 h2{
     text-align: center;
     font-size: 40px;
     grid-column: 1/6;
@@ -160,10 +160,11 @@ footer nav a{
     
     
 }
-footer p{
+footer p {
+    
    padding: 10px;
    margin: 1px;
    color: #050605;
-   
+   text-align: center;
 
 }
