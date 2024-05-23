@@ -74,10 +74,11 @@ h1 {
     color: rgb(125, 12, 12); 
     font-size: 50px;
     color: #dcdfd1;
-   
     width: 50%;
 }
-
+article h1{
+    font-size: 1px;
+}
     
 article  {
     position: absolute;
