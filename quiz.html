@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cuestionary|Varas Sergio</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <h1> Basic HTML and CSS Quiz</h1>
+
+    <form action="/procesar_formulario" method="post">
+       <!-- Question 1: Text entry -->
+        <label for="q1">1.What does the acronym Cssstand for?</label>
+        <input type="text" id="q1" name="q1" required>
+
+        <!-- Question 2: Textarea -->
+        <label for="q2">2.How are id and class atributes seleted in Css?</label>
+        <textarea id="q2" name="q2" rows="4" required></textarea>
+
+        <!-- Question 3: Dropdown menu -->
+        <label for="q3"> 3.Which of the following is a valid CSS comment?</label>
+        <select id="q3" name="q3" required>
+            <option value="" selected disabled>Elige una opción...</option>
+            <option wi value="">/* This is a single line comment */</option>
+            <option value="">/* This is a comment that spans multiple lines */</option>
+            <option value="">/* Comentario de prueba */</option>
+            <option value="">/* Important comment */</option>
+        </select>
+        <!--Question 4:-->
+        <label for="q4">4.What is the bottom margin give this declaration? </label>
+        <p>margin: 10px 5px 15px;</p>
+        <input type="number" id="q4" name="q4" required>
+        <br>
+
+       <!-- Submit button -->
+        <button type="submit">Submit Quiz </button>
+</body>
+</html>
