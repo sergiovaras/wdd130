@@ -52,7 +52,7 @@ nav a{
 p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
-    color: var(--secondary-color);
+    color: #050605;
 }
 a {
     text-decoration: none;
@@ -89,7 +89,6 @@ article  {
     width: 90%;
     text-align: center;
     
-
 }  
 article img{
     order:2;
@@ -98,7 +97,6 @@ article img{
 .hero img{
     display: block;
     width: 100%;
-
 }
 #section1 {
     display:grid;
@@ -133,13 +131,11 @@ article img{
     max-width: 150px;
     grid-row: 2;
     border: 2px solid #050605;
-
 }
 #section2 h2{
     text-align: center;
     font-size: 40px;
     grid-column: 1/6;
-
 }
 footer{
     display:flex;
@@ -147,29 +143,74 @@ footer{
     background-color: hsl(219, 59%, 65%);
     margin: 30px;
     border: 2px solid #333;
-    justify-content: space-between;
-    
-
-    
+    justify-content: space-between;  
 }
 footer img{
     width: 30px;
-
-
 }
 footer nav a{
     padding: 10px;
-    margin: 7px;
-    
-    
+    margin: 7px;  
 }
 footer p {
     
    padding: 10px;
    margin: 0px auto;
    color: #050605;
-   
+}
+.contact-Us{
+    padding: 30px;
+}
 
-   
+#section3 img{
+    padding: 3%;
+    padding-left: 20%;
 
 }
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: hsl(212, 50%, 80%);
+    border-radius: 5px;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    
+
+  }
+input[type="text"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: Arial, sans-serif;
+
+}
+
+
+h2{
+    text-align: center;
+}
+.contact-Us{
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: hsl(212, 50%, 80%);
+}
+.map{
+    margin: 30px;
+    
+}
+button[type="submit"] {
+    width: 100%;
+    background-color: #2b0a67;
+    color: #fff;
+    border: none;
+    padding: 10px ;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 10px;
+  }
