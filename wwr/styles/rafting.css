@@ -163,8 +163,8 @@ footer p {
 }
 
 #section3 img{
-    padding: 3%;
-    padding-left: 20%;
+    width: 300px;
+    margin: 45px;
 
 }
 form {
@@ -174,7 +174,7 @@ form {
     background-color: hsl(212, 50%, 80%);
     border-radius: 5px;
     position: absolute;
-    top: 110%;
+    top: 80%;
     left: 50%;
     
 
