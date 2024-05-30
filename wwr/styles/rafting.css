@@ -222,5 +222,14 @@ button[type="submit"] {
     margin: 10px;
   }
   h6{
-   color: #f4f6f0;
+   color:#290536;
+  }
+  .title h1{
+    
+    top: 25%;
+    left: 40%;
+    padding: 20px;
+  }
+  body{
+    background-color: #290536;
   }
