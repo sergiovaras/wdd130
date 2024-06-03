@@ -42,16 +42,17 @@ a{
 }
 nav a{
     font-weight: 1000;
-    padding-right: 80px;
-    background-color: #e1dcd8;
-    border: 2px solid #333;
+    padding-right: 40px;
     gap: 50px;
+    margin: 30px;
+    
+   
 
 }
 
 p{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 16px;
     color: #050605;
 }
 a {
@@ -151,6 +152,7 @@ footer img{
 footer nav a{
     padding: 10px;
     margin: 7px;  
+    
 }
 footer p {
     
@@ -230,6 +232,74 @@ button[type="submit"] {
     left: 40%;
     padding: 20px;
   }
-  body{
-    background-color: #290536;
+  table {
+    border-collapse: collapse;
+    width: 70%;
+    margin: 30px;
   }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+.img1 img{
+    position: relative;
+    
+}
+.img1 p{
+    position: absolute;
+    left: 43%;
+    top: 40%;
+    background:#83d3c3;
+    padding: 50px;
+
+}
+.img2 img{
+    position: relative;
+    
+}
+.img2 p{
+    position: absolute;
+    left: 43%;
+    top: 90%;
+    background:#83d3c3;
+    padding: 50px;
+
+}  
+.img3 img{
+    position: relative;
+    
+}
+.img3 p{
+    position: absolute;
+    left: 43%;
+    top: 140%;
+    background:#83d3c3;
+    padding: 50px;
+    
+
+
+}    
+.trips{
+    margin: 30px;
+    
+}
+.contat-trips{  
+  margin: 60px;
+  display: flex;
+  justify-content: center;
+  background: #83d3c3;
+  padding: 30px;
+
+}
+.contat-trips nav a{
+    padding: 20px;
+    background: #5906ce;
+    color: #ccc;
+
+}
+.contat-trips p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    
+}
