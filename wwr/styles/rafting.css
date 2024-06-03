@@ -45,9 +45,6 @@ nav a{
     padding-right: 40px;
     gap: 50px;
     margin: 30px;
-    
-   
-
 }
 
 p{
@@ -165,7 +162,6 @@ footer p {
 }
 
 #section3 img{
-
     margin:30px;
     padding: 1px ;
     position: relative;
@@ -178,11 +174,6 @@ form {
     padding: 20px;
     background-color: hsl(212, 50%, 80%);
     border-radius: 5px;
-    
-    
-    
-    
-
   }
 input[type="text"],
 textarea{
@@ -341,4 +332,11 @@ button[type="submit"] {
     position: absolute;
     top: 100%;
     left: 40%;
+}
+.suscripcion form{
+    background-color: #050605;
+    color: #bfacaa; 
+}
+.suscripcion{
+    margin: 70px;
 }
