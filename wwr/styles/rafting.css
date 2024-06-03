@@ -219,10 +219,10 @@ button[type="submit"] {
     margin: 10px;
   }
   h6{
-   color:#290536;
+   color: #ccc;
   }
   .title h1{
-    
+    color: #050605;
     top: 25%;
     left: 40%;
     padding: 20px;
