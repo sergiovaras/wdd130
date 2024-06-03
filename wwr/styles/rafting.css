@@ -276,8 +276,6 @@ button[type="submit"] {
     top: 140%;
     background:#83d3c3;
     padding: 50px;
-    
-
 
 }    
 .trips{
@@ -302,4 +300,45 @@ button[type="submit"] {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
     
+}
+.container1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.container2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.container1 img{
+    width: 100%;
+    height: auto;
+}
+.container1 p{
+    padding: 20px;
+    background-color: #92dc24;
+}
+.container2 img{
+    width: 100%;
+    height: auto;
+}
+.container2 p{
+    padding: 20px;
+    background-color: #92dc24;
+}
+.full-width{
+    position: relative;
+    margin: 30px;
+}
+.full-width img{
+    display: block;
+    width: 100%;
+}
+.Discover{
+    position: absolute;
+    top: 100%;
+    left: 40%;
 }
