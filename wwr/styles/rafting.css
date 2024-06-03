@@ -14,6 +14,7 @@
     --nav-hover-link-color: #bfacaa;
     --nav-hover-background-color:#2654aa;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -307,19 +308,28 @@ button[type="submit"] {
     font-size: 30px;
     
 }
+.objective{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
 .container1{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(2,1fr);
     gap: 20px;
     padding: 20px;
     margin: 30px;
+    background-color: #2480dc;
 }
 .container2{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(2,1fr);
     gap: 20px;
     padding: 20px;
     margin: 30px;
+    background-color: #2480dc;
 }
 .container1 img{
     width: 100%;
@@ -327,7 +337,10 @@ button[type="submit"] {
 }
 .container1 p{
     padding: 20px;
-    background-color: #2480dc;
+    background-color: #053362;
+    grid-row: 2;
+    font-size: 25px;
+    color: #ccc;
 }
 .container2 img{
     width: 100%;
@@ -335,11 +348,16 @@ button[type="submit"] {
 }
 .container2 p{
     padding: 20px;
-    background-color: #2480dc;
+    grid-row: 2;
+    background-color: #053362;
+    font-size: 25px;
+    color: #ccc;
 }
 .full-width{
     position: relative;
     margin: 30px;
+    border:1px solid #333;
+    
 }
 .full-width img{
     display: block;
