@@ -70,7 +70,6 @@ h1 {
     position: absolute;  
     top: 70px; 
     left: 400px; 
-    color: rgb(125, 12, 12); 
     font-size: 50px;
     color: #dcdfd1;
     width: 50%;
@@ -86,9 +85,14 @@ article  {
     top: 250px;
     left: 65px;
     width: 90%;
-    text-align: center;
-    
+    text-align: center; 
 }  
+article p{
+    color: #ccc;
+    font-size: 20px;
+    text-align:center;
+    padding: 20px;
+}
 article img{
     order:2;
     max-width: 20%;
@@ -99,15 +103,14 @@ article img{
 }
 #section1 {
     display:grid;
-    background-color:  hsl(218, 38%, 89%);
+    background-color:  #2480dc;
     height: 300px;
     padding: 20px;
-    border: 2px solid #333;
     margin: 30px;
 }
 #section1 p{
     color: #050605;
-    
+    font-size: 23px;
 }
 #section1 h2{
     text-align: center;
@@ -115,19 +118,19 @@ article img{
 }
 #section2{
     display: grid;
-    background-color: hsl(218, 38%, 89%);
+    background-color: #2480dc;
     place-items: center;
     grid-template-columns: repeat(5,1fr);
-    gap: 50px;
+    gap: 5px;
     grid-template-rows: auto 1fr;
     text-align: center;
     margin: 30px;
     height: 300px;
-    border: 2px solid #333;
+  
    
 }
 #section2 img{
-    max-width: 150px;
+    max-width: 220px;
     grid-row: 2;
     border: 2px solid #050605;
 }
