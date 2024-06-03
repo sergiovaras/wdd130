@@ -140,7 +140,7 @@ footer{
     gap: 200px;
     background-color: hsl(219, 59%, 65%);
     margin: 30px;
-    border: 2px solid #333;
+    padding: 20px;
     justify-content: space-between;  
 }
 footer img{
@@ -233,42 +233,57 @@ button[type="submit"] {
     padding: 8px;
     text-align: left;
   }
+.img1{
+    display: flex;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+    margin: 30px;
+    background-color: #2480dc;
+}
 .img1 img{
-    position: relative;
-    
+    width: 60%;
+    height: auto;
 }
 .img1 p{
-    position: absolute;
-    left: 43%;
-    top: 40%;
-    background:#83d3c3;
-    padding: 50px;
-
+   padding: 80px;
+   font-size: 20px;
+   color: #ccc;
+}
+.img2{
+    display: flex;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+    margin: 30px;
+    background-color: #2480dc;
 }
 .img2 img{
-    position: relative;
-    
+    width: 60%;
+    height: auto;
 }
 .img2 p{
-    position: absolute;
-    left: 43%;
-    top: 90%;
-    background:#83d3c3;
-    padding: 50px;
-
-}  
+    padding: 80px;
+    font-size: 20px;
+    color: #ccc;
+}    
+.img3{
+    display: flex;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+    margin: 30px;
+    background-color: #2480dc;
+}
 .img3 img{
-    position: relative;
-    
+    width: 60%;
+    height: auto;
 }
 .img3 p{
-    position: absolute;
-    left: 43%;
-    top: 140%;
-    background:#83d3c3;
-    padding: 50px;
-
-}    
+    padding: 80px;
+    font-size: 20px;
+    color: #ccc;
+}      
 .trips{
     margin: 30px;
     
@@ -297,12 +312,14 @@ button[type="submit"] {
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
     padding: 20px;
+    margin: 30px;
 }
 .container2{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
     padding: 20px;
+    margin: 30px;
 }
 .container1 img{
     width: 100%;
@@ -310,7 +327,7 @@ button[type="submit"] {
 }
 .container1 p{
     padding: 20px;
-    background-color: #92dc24;
+    background-color: #2480dc;
 }
 .container2 img{
     width: 100%;
@@ -318,7 +335,7 @@ button[type="submit"] {
 }
 .container2 p{
     padding: 20px;
-    background-color: #92dc24;
+    background-color: #2480dc;
 }
 .full-width{
     position: relative;
@@ -339,4 +356,7 @@ button[type="submit"] {
 }
 .suscripcion{
     margin: 70px;
+}
+table{
+margin: 150px;
 }
