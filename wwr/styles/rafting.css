@@ -227,6 +227,10 @@ button[type="submit"] {
     left: 40%;
     padding: 20px;
   }
+  .leyenda{
+    margin: 30px;
+    padding: 60px;
+  }
   table {
     border-collapse: collapse;
     width: 70%;
